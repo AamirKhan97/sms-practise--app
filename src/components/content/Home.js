@@ -58,7 +58,7 @@ let Home = (props) => {
                             <button onClick={selectAll} className="btn btn-primary btn-sm">Select All Text</button>
                         </div>
                         <div className="col-md-2">
-                            <button onClick={toUpperCase} className="btn btn-dark btn-sm">Upper Case</button>
+                            <button onClick={toUpperCase} className="btn btn-danger btn-sm">Upper Case</button>
                         </div>
                         <div className="col-md-2">
                             <button onClick={toBold} className="btn btn-secondary btn-sm">BOLD</button>
@@ -70,7 +70,7 @@ let Home = (props) => {
                             <button onClick={toLowerCase}  className="btn btn-warning btn-sm">Lower Case</button>
                         </div>
                         <div className="col-md-2">
-                            <button onClick={clearAll} className="btn btn-danger btn-sm">Delete All</button>
+                            <button onClick={clearAll} className="btn btn-dark btn-sm">Delete All</button>
                         </div>
                         
                     </div>
